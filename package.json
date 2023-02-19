@@ -1,0 +1,8 @@
+{
+  "name": "new-project",
+  "author": "monomoly",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

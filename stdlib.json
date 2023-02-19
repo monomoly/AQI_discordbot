@@ -1,0 +1,14 @@
+{
+  "name": "monomoly/workshop",
+  "timeout": 30000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/message/create/prefix/AirAwareBot.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "!aa"
+      }
+    }
+  },
+  "env": []
+}
